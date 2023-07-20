@@ -7,3 +7,4 @@ Na div'Filho', adicionei a <i>grid-column-start, grid-column-end,</i> para colun
 Também na div'Filho' adicionei a <i>grid-row-start, grid-row-end</i>, para linhas verticais.</h5>
 
 ![Pagina Yout](https://github.com/thiagoHo/P-Yout-GRID/assets/135985268/daecb4c7-3a30-4690-9d26-b59575846183)
+<h1>Thanks to all my followers!</h1>
