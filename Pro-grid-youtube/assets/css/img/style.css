@@ -3,17 +3,94 @@
     padding: 0;
     box-sizing: border-box;
 }
-header {
-    padding: 2px;
-    margin-bottom: 30px;
-    display:grid;
-    grid-template-columns: 50px 1fr  2fr 170px; 
-    grid-template-rows: 20px 1fr 20px;
-    border-bottom: 2px solid;
-
+.container {
+    display: grid;
+    border: 3px solid;
+    grid-template-columns:16% 1fr 1fr auto;
+    grid-template-rows:1fr;
+    justify-content: space-between;
+    gap:20px 10px;
+    background: #b5b3b3;
+    
 }
+.login-01  {
 
-.item {
     margin: 4px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
 }
-/*Parte do Cabeçalho*/
+.login-02 {
+    margin: 4px;
+    align-self: center;
+    
+}
+.login-03 {
+    align-self: center;
+    padding: 0 9.4em;
+}
+.login-04 {
+    grid-column-start: 1;
+    grid-column-end: 1; 
+    grid-row-start:2 ;  
+    grid-row-end: 7;
+}
+.login-04 {
+    text-align: center;
+    height: 4vh;
+}
+
+.login-04 img{
+    width: 60%;
+    height: 4vh;
+}
+.content-1 {
+    grid-column-start: 2;
+
+}
+
+.content-2 {
+
+    grid-column-start: 3;  
+}
+.content-3 {
+
+    grid-column-start: 4; 
+   
+}
+.content-4 {
+
+    grid-row-start: 3;
+}
+
+.content-5 {
+
+    grid-column-start: 3;
+    
+}
+
+
+.content-6 {
+    grid-column-start: 4;
+}
+.content-7 {
+
+    grid-row-start: 4;
+}
+.content-8 {
+    grid-column-start: 3;
+}
+.content-9 {
+    grid-column-start: 4;
+}
+.content-10 {
+ 
+    grid-column-start:2;
+}
+.content-11 {
+
+    grid-column-start: 3;
+}
+.content-12 {
+    grid-column-start: 4;
+}
